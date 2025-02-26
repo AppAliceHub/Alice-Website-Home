@@ -121,3 +121,19 @@ Hero area CSS
     }
 }
 
+/* Fixed logo switching rules */
+.header-logo img:first-child {
+  display: block;
+}
+
+.header-logo .logo-2 {
+  display: none;
+}
+
+.is-sticky .header-logo img:first-child {
+  display: none !important;
+}
+
+.is-sticky .header-logo .logo-2 {
+  display: block !important;
+}

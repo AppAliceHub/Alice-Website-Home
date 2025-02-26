@@ -28,40 +28,63 @@
     <div class="preloader"></div>
     
 	<!-- Header area -->
-<div id="mainmenu-area">
-        <div class="header-area header-absolute header-2">
-                <div class="container">
-                        <div class="row">
-                                <div class="col-lg-3 align-self-center ">
-                                        <a href="index.html" class="header-logo">
-                                                <img src="assets/image/Alice_white_logo.png" alt="AliceHub">
-                                                <img src="assets/image/logo.png" alt="AliceHub" class="logo-2">
-                                        </a>
-                                </div>
-                                <div class="col-lg-7 align-self-center t-right">
-                                        <button class="toggle">
-                                                <span></span>
-                                        </button>
-                                        <div class="mainmenu">
-                                                <nav>
-                                                        <ul>
-                                                                <li><a class="nav-link" href="https://alicehub.app/support/">Support</a></li>
-                                                                <li><a class="nav-link" href="https://alicehub.app/privacypolicy">Privacy</a></li>
-                                                        </ul>
-                                                </nav>
-                                        </div>
-                                </div>
-                                <div class="col-lg-2 align-self-center" >
-                                        <div class="header-btn">
-                                                <a href="#" class="button">Sign in</a>
-                                        </div>
-                                </div>
-                        </div>
-                </div>
-        </div>
-</div>
-<!-- End Header area -->
-                        
+	<div id="mainmenu-area">
+		<div class="header-area header-absolute header-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 align-self-center ">
+						<a href="index.html" class="header-logo">
+							<img src="assets/image/Alice_white_logo.png" alt="AliceHub Logo" class="logo-1">
+							<img src="assets/image/logo.png" alt="" class="logo-2">
+						</a>
+					</div>
+					<div class="col-lg-7 align-self-center t-right">
+						<button class="toggle">
+							<span></span>
+						</button>
+						<div class="mainmenu">
+							<nav>
+								<ul>
+									<li><a href="index.html">Home +</a>
+										<ul>
+                                            <li><a href="index.html">Home 1</a></li>
+                                            <li><a href="home-2.html">Home 2</a></li>
+											<li><a href="home-3.html" class="active">Home 3</a></li>
+                                            <li><a href="home-4.html">Home 4</a></li>
+                                            <li><a href="home-5.html">Home 5</a></li>
+                                            <li><a href="home-6.html">Home 6</a></li>
+                                            <li><a href="home-7.html">Home 7</a></li>
+                                            <li><a href="home-8.html">Home 8</a></li>
+                                            <li><a href="home-9.html">Home 9</a></li>
+										</ul>
+									</li>
+									<li><a class="nav-link" href="#service">Service</a></li>
+									<li><a class="nav-link" href="#features">Features</a></li>
+									<li><a href="#">Pages +</a>
+										<ul>
+											<li><a href="blog.html" class="active">Blog</a></li>
+                                            <li><a href="single-blog.html">Single Blog</a></li>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="contact.html">Contact us</a></li>
+                                            <li><a href="single-project.html">Project Details</a></li>
+										</ul>
+									</li>
+									<li><a class="nav-link" href="#testimonial">Testimonial</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="col-lg-2 align-self-center" >
+						<div class="header-btn">
+							<a href="#" class="button">Sign in</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Header area -->
+
 	<!-- Hero area -->
 <div class="hero-area o-hi hero-3" style="padding: 0; margin: 0; background: none;">
     <div style="width: 100%; position: relative;">
