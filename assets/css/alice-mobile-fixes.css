@@ -1,0 +1,53 @@
+/* AliceHub Mobile Fixes */
+
+/* Fix for sticky header logo size */
+.sticky .header-logo img.logo-2 {
+    max-height: 50px !important;
+    width: auto !important;
+}
+
+.logo-1, .logo-2 {
+    max-height: 70px;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .sticky .header-logo img.logo-2 {
+        max-height: 40px !important;
+    }
+    
+    .header-logo img {
+        max-height: 50px;
+    }
+}
+
+/* Hero area mobile responsive text */
+@media (max-width: 992px) {
+    .hero-area h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-area h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-area h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-area h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-area h1 {
+        font-size: 1.5rem;
+    }
+    
+    .hero-area h2 {
+        font-size: 1.2rem;
+    }
+}

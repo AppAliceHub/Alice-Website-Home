@@ -1,0 +1,65 @@
+/* Custom responsive styles for AliceHub */
+
+/* Hero section responsive styles */
+.hero-heading {
+    font-size: 2.8rem;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 1200px) {
+    .hero-heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-heading {
+        font-size: 2.2rem;
+    }
+    .hero-text-container {
+        max-width: 80% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-heading {
+        font-size: 1.8rem;
+    }
+    .hero-text-container {
+        top: 25% !important;
+        max-width: 80% !important;
+    }
+    .app-buttons .boxed-btn {
+        padding: 8px 12px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-heading {
+        font-size: 1.5rem;
+        margin-bottom: 15px !important;
+    }
+    .hero-text-container {
+        top: 20% !important;
+        left: 5% !important;
+        max-width: 90% !important;
+    }
+    .app-buttons {
+        margin-top: 10px !important;
+    }
+    .app-buttons .boxed-btn {
+        padding: 6px 10px !important;
+    }
+    .app-buttons .boxed-btn h6 {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-heading {
+        font-size: 1.3rem;
+    }
+    .app-buttons .boxed-btn {
+        margin-bottom: 5px !important;
+    }
+}

@@ -292,16 +292,12 @@ Header area CSS
     
 }
 
-
 .sticky .mainmenu li li:hover>a, 
 .mainmenu li li:hover>a{
     background: rgba(0, 0, 0, 0.1);
     transition: all .3s;
     padding-left: 23px;
 }
-
-
-
 
 .is-sticky .mainmenu li ul li a {
     padding: 10px 20px;
@@ -430,8 +426,6 @@ Hero area CSS
     left: 0;
     right: auto;
 }
-
-
 
 .button:hover, .cbutton button:hover {
     color: white;
@@ -564,8 +558,6 @@ img.path-1-img.path-2-img {
                 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
             }
         }
-
-
 
 /*****************
 Features area CSS
@@ -1244,7 +1236,6 @@ p.circle-text {
     box-shadow: 0 5px 30px rgba(0, 0, 0, .1);
     border-radius: 5px;
 }
-
 
 /***************
 Footer area CSS

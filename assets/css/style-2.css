@@ -12,31 +12,30 @@ Header area CSS
 .header-2 .mainmenu li a {
     color: #C0CCDA;
 }
-
 .header-2 .mainmenu li:hover>a {
     color: white;
 }
-
 .is-sticky .header-2 .mainmenu li a {
     color: #576477;
 }
 
+/* Logo visibility rules */
+.logo-1 {
+    display: block;
+}
 
-.is-sticky .logo-1,
 .logo-2 {
     display: none;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
+}
+
+/* When sticky, switch logos */
+.is-sticky .logo-1 {
+    display: none;
 }
 
 .is-sticky .logo-2 {
     display: block;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
 }
-
 
 /*************
 Hero area CSS
